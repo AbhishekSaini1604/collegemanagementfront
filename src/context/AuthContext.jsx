@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     try {
       const response = await axios.post(
-        "https://collegemanagement-backend-node-1.onrender.com/api/auth/login",
+        "https://collegemanagement-backend-node.onrender.com/api/auth/login",
         {
           email,
           password,
